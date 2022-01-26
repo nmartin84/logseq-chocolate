@@ -1,0 +1,17 @@
+{
+  "name": "Chocolate 🍫",
+  "author": "nmartin84",
+  "version": "0.1.0",
+  "description": "A chocolate theme for Logseq.",
+  "logseq": {
+    "themes": [
+      {
+        "name": "Chocolate",
+        "url": "./chocolate.css",
+        "description": "Chocolate Theme for Logseq",
+        "mode": "dark"
+      }
+    ],
+    "id": "chocolate-theme"
+  }
+}
