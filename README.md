@@ -1,6 +1,4 @@
-# Logseq Nord
-
-![nord](icon.png)
+# Chocolate for Logseq
 
 - **Contributors:** Nick Martin (nmartin84)
 - **Requires at least:** Logseq 0.5.9
@@ -8,13 +6,7 @@
 
 ## Description
 
-NORD Theme for Logseq. 
-
-Dark:
-![dark](dark-nord2.png)
-
-Light:
-![light](light-nord2.png)
+A chocolate theme for Logseq... work in progress.
 
 ## Frequently Asked Questions
 
