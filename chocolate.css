@@ -145,7 +145,7 @@ html[data-theme='light'] {
 }
 
 .bg-indigo-600 {
-  background-color: var(--cd-blue-3);
+  background-color: var(--cd-active-color);
 }
 
 .extensions__code-lang {
@@ -158,7 +158,7 @@ html[data-theme='light'] {
 }
 
 .white-theme .CodeMirror.cm-s-solarized.cm-s-white, .white-theme .extensions__code-lang {
-  background-color: var(--bg-lg-3);
+  background-color: var(--color-level-3);
 }
 
 .dark-theme .CodeMirror-gutter,
@@ -171,7 +171,7 @@ html[data-theme='light'] .CodeMirror-gutter,
 .CodeMirror-lines,
 .CodeMirror-scroll,
 .CodeMirror-sizer {
-  background-color: var(--bg-lg-3);
+  background-color: var(--color-level-3);
 }
 
 .cm-s-solarized.cm-s-dark {
