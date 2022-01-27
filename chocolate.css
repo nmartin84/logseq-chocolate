@@ -363,7 +363,6 @@ li.my-2 {
 }
 
 .form-checkbox {
-  border: 1.5px solid var(--ls-primary-text-color);
   opacity: 0.3;
   border-radius: 2px;
 }
