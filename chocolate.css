@@ -369,7 +369,8 @@ li.my-2 {
 }
 
 .form-checkbox:checked {
-  background-color: var(--cd-blue-4);
+  background-color: var(--cd-inactive-color);
+  opacity: 0.4;
 }
 
 .journal h1.title:before {
