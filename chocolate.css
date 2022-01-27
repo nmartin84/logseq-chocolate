@@ -411,7 +411,7 @@ li.my-2 {
   background-color: var(--color-level-3);
 }
 .white-theme .block-parents a.tag {
-  color: var(--cd-blue) !important;
+  color: var(--cd-active-color) !important;
 }
 
 /* PDF Viewer */
