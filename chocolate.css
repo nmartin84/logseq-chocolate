@@ -31,7 +31,7 @@ html[data-theme='dark'] {
   --ls-mark-color: var(--cd-active-color);
   --ls-border-color: var(--cd-accent-color);
   --ls-secondary-border-color: #126277;
-  --ls-guideline-color: var(--cd-inactive-color);
+  --ls-guideline-color: #705b5f61;
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #c7ad9d;
   --ls-secondary-text-color: #968185;
@@ -104,7 +104,7 @@ html[data-theme='light'] {
   --ls-mark-color: var(--cd-active-color);
   --ls-border-color: var(--cd-accent-color);
   --ls-secondary-border-color: #126277;
-  --ls-guideline-color: var(--cd-inactive-color);
+  --ls-guideline-color: #705b5f6b;
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #291f22;
   --ls-secondary-text-color: #33272a;
@@ -275,6 +275,9 @@ mark {
 }
 .dark-theme .block-ref:hover {
   color: var(--cd-yellow-1);
+}
+.block-children {
+  border-left: 0px solid;
 }
 .block-children-left-border {
   background-color: var(--ls-guideline-color) !important;
