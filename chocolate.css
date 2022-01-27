@@ -43,7 +43,7 @@ html[data-theme='dark'] {
   --ls-tag-text-color: var(--cd-active-color);
   --ls-tag-text-hover-color: var(--cd-alternate-color);
   --ls-slide-background-color: var(--ls-primary-background-color);
-  --ls-block-bullet-border-color: #33272a;
+  --ls-block-bullet-border-color: #473d3f;
   --ls-block-bullet-color: var(--ls-guideline-color);
   --ls-block-highlight-color: var(--bg-lg-3);
   --ls-selection-background-color: var(--cd-active-color);
