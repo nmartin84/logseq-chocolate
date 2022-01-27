@@ -30,8 +30,8 @@ html[data-theme='dark'] {
   --ls-mark-bg-color: var(--cd-accent-color);
   --ls-mark-color: var(--cd-active-color);
   --ls-border-color: var(--cd-accent-color);
-  --ls-secondary-border-color: #126277;
-  --ls-guideline-color: #705b5f61;
+  --ls-secondary-border-color: var(--cd-alternate-color);
+  --ls-guideline-color: var(--cd-inactive-color);
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #c7ad9d;
   --ls-secondary-text-color: #968185;
