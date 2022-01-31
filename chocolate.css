@@ -54,9 +54,9 @@ html[data-theme='dark'] {
   --ls-page-blockquote-border-color: var(--ls-border-color);
   --ls-page-inline-code-color: var(--cd-alternate-color);
   --ls-page-inline-code-bg-color: var(--color-level-2);
-  --ls-scrollbar-foreground-color: var(--cd-inactive-color);
-  --ls-scrollbar-background-color: var(--color-level-6);
-  --ls-scrollbar-thumb-hover-color: var(--cd-accent-color);
+  --ls-scrollbar-foreground-color: #4c4144;
+  --ls-scrollbar-background-color: var(--color-level-2);
+  --ls-scrollbar-thumb-hover-color: var(--cd-inactive-color);
   --ls-head-text-color: var(--ls-link-text-color);
   --ls-cloze-text-color: var(--cd-active-color);
   --ls-icon-color: var(--cd-active-color);
@@ -103,7 +103,7 @@ html[data-theme='light'] {
   --ls-mark-bg-color: var(--cd-accent-color);
   --ls-mark-color: var(--cd-active-color);
   --ls-border-color: var(--cd-accent-color);
-  --ls-secondary-border-color: #126277;
+  --ls-secondary-border-color: var(--cd-alternate-color);
   --ls-guideline-color: #A99385;
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #291f22;
@@ -127,9 +127,9 @@ html[data-theme='light'] {
   --ls-page-blockquote-border-color: var(--ls-border-color);
   --ls-page-inline-code-color: var(--cd-alternate-color);
   --ls-page-inline-code-bg-color: var(--color-level-2);
-  --ls-scrollbar-foreground-color: var(--cd-inactive-color);
-  --ls-scrollbar-background-color: var(--color-level-6);
-  --ls-scrollbar-thumb-hover-color: var(--cd-accent-color);
+  --ls-scrollbar-foreground-color: var(--ls-guideline-color);
+  --ls-scrollbar-background-color: var(--color-level-2);
+  --ls-scrollbar-thumb-hover-color: var(--cd-inactive-color);
   --ls-head-text-color: var(--ls-link-text-color);
   --ls-cloze-text-color: var(--cd-active-color);
   --ls-icon-color: var(--cd-active-color);
@@ -454,4 +454,8 @@ li.my-2 {
 
 .hls-popup-box {
   background-color: var(--color-level-3);
+}
+
+::-webkit-scrollbar {
+  width: 5px !important;
 }
