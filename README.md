@@ -11,12 +11,15 @@ Chocolate, a delicious yummy theme.
 A yummy delicious theme to make your Logseq a more rich experience.
 
 **Tasks**: Use a fairly faint blue accent color to draw the user's attention, but provide a certain lightness level so that it's not over empowering.
+
 ![tasks](assets/tasks.gif)
 
 **Breadcrumbs**: Use a smaller font-size, and reduction in brightness of the font-color so that you can focus on the important stuff, your notes.
+
 ![breadcrumbs](assets/breadcrumbs.gif)
 
 **Page References and tags**: Use a rich color that helps draw your attention, but is not overly flashy, and uses a complementary color that fits the main colors so that it's not over empowering.
+
 ![pagerefs](assets/refs.gif)
 
 ## Frequently Asked Questions
