@@ -1,6 +1,6 @@
 ![logo](icon.png)
 
-Chocolate, a delicious yummy theme. 🍫
+**Chocolate**, a delicious, yummy theme for Logseq. 🍫
 
 - **Contributors:** Nick Martin (nmartin84)
 - **Requires at least:** Logseq 0.5.9
@@ -30,5 +30,5 @@ A yummy delicious theme to make your Logseq a more rich experience.
 ### How do I install the theme?
 - Theme is available (pending PR) on the Logseq Market place!
   - Open Logseq, click on the 3 dots (...) top right corner, choose plugins, marketplace, themes.
-  - Click install on the Logseq Chocolate theme.
+  - Click install on Logseq Chocolate theme.
   - Cheers. 
