@@ -104,7 +104,7 @@ html[data-theme='light'] {
   --ls-mark-color: var(--cd-active-color);
   --ls-border-color: var(--cd-accent-color);
   --ls-secondary-border-color: #126277;
-  --ls-guideline-color: var(--cd-inactive-color);
+  --ls-guideline-color: #A99385;
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #291f22;
   --ls-secondary-text-color: #70555D;
@@ -267,19 +267,21 @@ mark {
   padding: 2px 6px;
 }
 .white-theme .block-ref {
-  background-color: #8fbcbb45 !important;
-  border-bottom: 2px solid #b7bdc8 !important;
+  border-bottom: 0px solid;
+  color: var(--cd-inactive-color);
+  font-style: italic;
 }
 .white-theme .block-ref:hover {
-  color: var(--cd-pink-1);
+  color: var(--cd-alternate-color);
 }
 
 .dark-theme .block-ref {
-  background-color: #5d81ac52 !important;
-  border-bottom: 2px solid #7b88a3 !important;
+  color: var(--cd-inactive-color);
+  font-style: italic;
+  border-bottom: 0px solid;
 }
 .dark-theme .block-ref:hover {
-  color: var(--cd-yellow-1);
+  color: var(--cd-alternate-color);
 }
 .block-children {
   border-left: 0px solid;
@@ -302,7 +304,7 @@ mark {
   background-color: transparent;
   border: 0px solid !important;
   padding: 0px 2px !important;
-  color: var(--cd-green-1);
+  color: var(--cd-alternate-color);
   border-radius: 2px !important;
   font-style: italic !important;
 }
@@ -438,18 +440,18 @@ li.my-2 {
 }
 
 .textLayer .highlight.selected, .textLayer ::selection {
-  background-color: var(--cd-blue-3);
+  background-color: var(--cd-active-color);
 }
 
 :root {
-  --ph-highlight-color-blue: var(--cd-blue-4);
+  --ph-highlight-color-blue: var(--cd-accent-color);
   --ph-highlight-color-green: var(--cd-green-1);
-  --ph-highlight-color-red: var(--cd-red-1);
+  --ph-highlight-color-red: var(--cd-active-color);
   --ph-highlight-color-purple: var(--cd-pink-1);
-  --ph-highlight-color-yellow: var(--cd-yellow-1);
+  --ph-highlight-color-yellow: var(--cd-alternate-color);
   --ph-highlight-scroll-into-color: rgba(255, 75, 93, 0.67);
 }
 
 .hls-popup-box {
-  background-color: var(--bg-dk-2);
+  background-color: var(--color-level-3);
 }
