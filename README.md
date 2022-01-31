@@ -1,10 +1,13 @@
 ![logo](icon.png)
 
-Chocolate, a delicious yummy theme.
+Chocolate, a delicious yummy theme. 🍫
 
 - **Contributors:** Nick Martin (nmartin84)
 - **Requires at least:** Logseq 0.5.9
 - **Tested up to:** Logseq 0.5.9
+
+![s1](assets/screenshot1.png)
+![s2](assets/screenshot2.png)
 
 ## Description
 
@@ -28,4 +31,4 @@ A yummy delicious theme to make your Logseq a more rich experience.
 - Theme is available (pending PR) on the Logseq Market place!
   - Open Logseq, click on the 3 dots (...) top right corner, choose plugins, marketplace, themes.
   - Click install on the Logseq Chocolate theme.
-  - Cheers. 🍻
+  - Cheers. 
