@@ -233,7 +233,9 @@ mark {
 }
 
 .block-marker {
-  color: var(--ls-page-checkbox-color);
+  color: var(--cd-accent-color) !important;
+  opacity: 0.7;
+  font-weight: 400 !important;
 }
 
 .dark-theme .external-link:after {
@@ -368,18 +370,16 @@ li.my-2 {
   margin-bottom: .5rem !important;
 }
 
-.block-marker {
-  display: none !important;
-}
-
 .form-checkbox {
-  opacity: 0.3;
+  border: 0px solid !important;
+  background-color: var(--cd-accent-color) !important;
+  opacity: 0.4;
   border-radius: 2px;
 }
 
 .form-checkbox:checked {
   background-color: var(--cd-inactive-color);
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 .journal h1.title:before {
