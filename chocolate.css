@@ -94,7 +94,7 @@ html[data-theme='light'] {
   --ls-mark-color: var(--cd-active-color);
   --ls-border-color: var(--cd-accent-color);
   --ls-secondary-border-color: var(--cd-alternate-color);
-  --ls-guideline-color: var(--ls-secondary-text-color);
+  --ls-guideline-color: #d8c6ba;
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #291f22;
   --ls-secondary-text-color: #70555D;
@@ -107,7 +107,7 @@ html[data-theme='light'] {
   --ls-tag-text-hover-color: var(--cd-alternate-color);
   --ls-slide-background-color: var(--ls-primary-background-color);
   --ls-block-bullet-border-color: var(--color-level-3);
-  --ls-block-bullet-color: var(--ls-guideline-color);
+  --ls-block-bullet-color: #70555d;
   --ls-block-highlight-color: var(--color-level-3);
   --ls-selection-background-color: var(--cd-active-color);
   --ls-page-checkbox-color: transparent;
@@ -274,11 +274,14 @@ mark {
 }
 .block-children-left-border {
   background-color: transparent !important;
+  width: 3px;
 }
-.block-children-left-border:hover {
-  background-color: var(--ls-primary-text-color) !important;
+.white-theme .block-children-left-border:hover {
+  background-color: #d8c6ba !important;
 }
-
+.dark-theme .block-children-left-border:hover {
+  background-color: #968185 !important;
+}
 .dark-theme :not(pre)>code {
   background-color: transparent;
   border: 0px solid !important;
